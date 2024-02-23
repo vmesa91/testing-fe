@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1708685178292" clover="3.2.0">
+  <project timestamp="1708685178292" name="All files">
+    <metrics statements="109" coveredstatements="53" conditionals="34" coveredconditionals="9" methods="38" coveredmethods="17" elements="181" coveredelements="79" complexity="0" loc="109" ncloc="109" packages="14" files="31" classes="31"/>
+    <package name="auth">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="auth.context">
+      <metrics statements="21" coveredstatements="4" conditionals="5" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="AuthContext.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/context/AuthContext.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="AuthProvider.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/context/AuthProvider.jsx">
+        <metrics statements="15" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+      <file name="authReducer.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/context/authReducer.js">
+        <metrics statements="5" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/context/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="auth.pages">
+      <metrics statements="8" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="LoginPage.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/pages/LoginPage.jsx">
+        <metrics statements="8" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/pages/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="auth.types">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/types/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="types.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/auth/types/types.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="heroes">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="heroes.components">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="HeroCard.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/components/HeroCard.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+      </file>
+      <file name="HeroList.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/components/HeroList.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/components/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="heroes.data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="heroes.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/data/heroes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="heroes.helpers">
+      <metrics statements="12" coveredstatements="6" conditionals="5" coveredconditionals="1" methods="6" coveredmethods="2"/>
+      <file name="getHeroById.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/helpers/getHeroById.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="getHeroesByName.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/helpers/getHeroesByName.js">
+        <metrics statements="5" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="getHeroesByPublisher.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/helpers/getHeroesByPublisher.js">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/helpers/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="heroes.pages">
+      <metrics statements="26" coveredstatements="5" conditionals="9" coveredconditionals="0" methods="8" coveredmethods="1"/>
+      <file name="DcPage.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/pages/DcPage.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="HeroPage.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/pages/HeroPage.jsx">
+        <metrics statements="9" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="MarvelPage.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/pages/MarvelPage.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="SearchPage.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/pages/SearchPage.jsx">
+        <metrics statements="13" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/pages/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="heroes.routes">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HeroesRoutes.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/heroes/routes/HeroesRoutes.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="useForm.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/hooks/useForm.js">
+        <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="router">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="AppRouter.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/router/AppRouter.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+      <file name="PrivateRoute.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/router/PrivateRoute.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="PublicRoute.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/router/PublicRoute.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="ui">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/ui/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="ui.components">
+      <metrics statements="10" coveredstatements="8" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="4"/>
+      <file name="Navbar.jsx" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/ui/components/Navbar.jsx">
+        <metrics statements="10" coveredstatements="8" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="index.js" path="/Users/virginiamesa/Documents/my_career/testing-fe/testing-heroes/src/ui/components/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
