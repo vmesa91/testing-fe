@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">7.69% </span>
+                <span class="strong">84.61% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/13</span>
+                <span class='fraction'>11/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/7</span>
+                <span class='fraction'>6/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/3</span>
+                <span class='fraction'>2/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">7.69% </span>
+                <span class="strong">84.61% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/13</span>
+                <span class='fraction'>11/13</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -167,34 +167,31 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -242,7 +239,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -260,25 +260,25 @@ import { useForm } from '../../hooks/useForm';
 import { HeroCard } from '../components';
 import { getHeroesByName } from '../helpers';
 &nbsp;
-export const SearchPage = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+export const SearchPage = () =&gt; {
 &nbsp;
-  const navigate = <span class="cstat-no" title="statement not covered" >useNavigate();</span>
-  const location = <span class="cstat-no" title="statement not covered" >useLocation();</span>
+  const navigate = useNavigate();
+  const location = useLocation();
 &nbsp;
-  const { q = <span class="branch-0 cbranch-no" title="branch not covered" >'' </span>} = <span class="cstat-no" title="statement not covered" >queryString.parse( location.search );</span>
-  const heroes = <span class="cstat-no" title="statement not covered" >getHeroesByName(q);</span>
+  const { q = '' } = queryString.parse( location.search );
+  const heroes = getHeroesByName(q);
 &nbsp;
-  const showSearch = (<span class="cstat-no" title="statement not covered" >q.length === 0)</span>;
-  const showError  = <span class="cstat-no" title="statement not covered" >(q.length &gt; 0) &amp;&amp; heroes.length === 0;</span>
+  const showSearch = (q.length === 0);
+  const showError  = (q.length &gt; 0) &amp;&amp; heroes.length === 0;
 &nbsp;
 &nbsp;
-  const { searchText, onInputChange } = <span class="cstat-no" title="statement not covered" >useForm({</span>
+  const { searchText, onInputChange } = useForm({
     searchText: q
   });
 &nbsp;
 &nbsp;
 &nbsp;
-  const onSearchSubmit = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(e</span>vent) =&gt;{</span>
+  const onSearchSubmit = <span class="fstat-no" title="function not covered" >(e</span>vent) =&gt;{
 <span class="cstat-no" title="statement not covered" >    event.preventDefault();</span>
     // if ( searchText.trim().length &lt;= 1 ) return;
 &nbsp;
@@ -286,7 +286,7 @@ export const SearchPage = <span class="fstat-no" title="function not covered" >(
   }
 &nbsp;
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return (</span>
+  return (
     &lt;&gt;
       &lt;h1&gt;Search&lt;/h1&gt; 
       &lt;hr /&gt;
@@ -330,14 +330,14 @@ export const SearchPage = <span class="fstat-no" title="function not covered" >(
             &lt;/div&gt;
 &nbsp;
             &lt;div className="alert alert-danger animate__animated animate__fadeIn" 
-                style={{ display: showError ? '' : 'none' }}&gt;
+                style={{ display: showError ? <span class="branch-0 cbranch-no" title="branch not covered" >'' </span>: 'none' }}&gt;
               No hero with &lt;b&gt;{ q }&lt;/b&gt;
             &lt;/div&gt;
 &nbsp;
 &nbsp;
             {
-              heroes.map( <span class="fstat-no" title="function not covered" >he</span>ro =&gt; (
-<span class="cstat-no" title="statement not covered" >                &lt;HeroCard key={ hero.id } {...hero } /&gt;</span>
+              heroes.map( hero =&gt; (
+                &lt;HeroCard key={ hero.id } {...hero } /&gt;
               ))
             }
 &nbsp;
@@ -355,7 +355,7 @@ export const SearchPage = <span class="fstat-no" title="function not covered" >(
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-02-23T10:46:18.239Z
+                at 2024-02-25T11:39:51.047Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
