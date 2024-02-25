@@ -16,7 +16,9 @@ exports[`Tests in <SearchPage /> should render the component 1`] = `
         Searching
       </h4>
       <hr />
-      <form>
+      <form
+        aria-label="form"
+      >
         <input
           autocomplete="off"
           class="form-control"
@@ -45,6 +47,7 @@ exports[`Tests in <SearchPage /> should render the component 1`] = `
         Search a hero
       </div>
       <div
+        aria-label="alert-no-hero"
         class="alert alert-danger animate__animated animate__fadeIn"
         style="display: none;"
       >

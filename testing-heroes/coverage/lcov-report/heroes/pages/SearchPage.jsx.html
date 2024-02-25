@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">84.61% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/13</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">85.71% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>6/7</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/3</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">84.61% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/13</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
@@ -167,31 +167,31 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -278,11 +278,11 @@ export const SearchPage = () =&gt; {
 &nbsp;
 &nbsp;
 &nbsp;
-  const onSearchSubmit = <span class="fstat-no" title="function not covered" >(e</span>vent) =&gt;{
-<span class="cstat-no" title="statement not covered" >    event.preventDefault();</span>
+  const onSearchSubmit = (event) =&gt;{
+    event.preventDefault();
     // if ( searchText.trim().length &lt;= 1 ) return;
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    navigate(`?q=${ searchText }`);</span>
+    navigate(`?q=${ searchText }`);
   }
 &nbsp;
 &nbsp;
@@ -296,7 +296,7 @@ export const SearchPage = () =&gt; {
           &lt;div className="col-5"&gt;
             &lt;h4&gt;Searching&lt;/h4&gt;
             &lt;hr /&gt;
-            &lt;form onSubmit={ onSearchSubmit }&gt;
+            &lt;form onSubmit={ onSearchSubmit } aria-label='form' &gt;
               &lt;input 
                 type="text"
                 placeholder="Search a hero"
@@ -329,8 +329,8 @@ export const SearchPage = () =&gt; {
               Search a hero
             &lt;/div&gt;
 &nbsp;
-            &lt;div className="alert alert-danger animate__animated animate__fadeIn" 
-                style={{ display: showError ? <span class="branch-0 cbranch-no" title="branch not covered" >'' </span>: 'none' }}&gt;
+            &lt;div aria-label="alert-no-hero" className="alert alert-danger animate__animated animate__fadeIn" 
+                style={{ display: showError ? '' : 'none' }}&gt;
               No hero with &lt;b&gt;{ q }&lt;/b&gt;
             &lt;/div&gt;
 &nbsp;
@@ -355,7 +355,7 @@ export const SearchPage = () =&gt; {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-02-25T11:39:51.047Z
+                at 2024-02-25T19:44:31.250Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
