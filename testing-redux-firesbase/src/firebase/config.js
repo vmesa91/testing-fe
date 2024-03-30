@@ -2,9 +2,15 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore/lite';
+import { getEnvironments } from '../helpers';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+
+const env = getEnvironments()
+console.log(env)
+
+//? TESTING
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAa7S1ylxPtxaRv6CaHPmQ26sgGOv_Izic",
@@ -12,8 +18,19 @@ const firebaseConfig = {
   projectId: "react-app-journal-9f278",
   storageBucket: "react-app-journal-9f278.appspot.com",
   messagingSenderId: "173603502677",
-  appId: "1:173603502677:web:1e1ea9744cc54fca43f2dc"
+  appId: "1:173603502677:web:b111426266ee41e143f2dc"
 };
+
+
+//? PRODUCTION Your web app's Firebase configuration 
+/* const firebaseConfig = {
+  apiKey: "AIzaSyAa7S1ylxPtxaRv6CaHPmQ26sgGOv_Izic",
+  authDomain: "react-app-journal-9f278.firebaseapp.com",
+  projectId: "react-app-journal-9f278",
+  storageBucket: "react-app-journal-9f278.appspot.com",
+  messagingSenderId: "173603502677",
+  appId: "1:173603502677:web:1e1ea9744cc54fca43f2dc"
+}; */
 
 // Initialize Firebase
 export const FirebaseApp  = initializeApp(firebaseConfig);
