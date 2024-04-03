@@ -12,7 +12,6 @@ describe('Tests in <FabDelete />', () => {
             <FabDelete/> 
         </Provider>
        ) 
-       screen.debug()
     })
 
     

@@ -1,4 +1,4 @@
-import { renderHook } from "@testing-library/react";
+import { act, renderHook } from "@testing-library/react";
 import { useUiStore } from "./useUiStore";
 import { Provider } from "react-redux";
 import { uiSlice } from "../store";
@@ -23,8 +23,6 @@ describe('Tests in useUiStore', () => {
         
         const { result } = renderHook( () => useUiStore(),
         { wrapper: ({children}) => <Provider store={mockStore} > { children } </Provider> } )
-       
-        console.log(result)
 
         expect( result.current ).toEqual({
             isDateModalOpen: false,
@@ -34,4 +32,46 @@ describe('Tests in useUiStore', () => {
         })
 
      })
+
+    test('openDateModal should return true in isDateModalOpen', () => { 
+        
+        const mockStore = getMockStore({ isDateModalOpen: false })
+        const { result } = renderHook( () => useUiStore(),
+        { wrapper: ({children}) => <Provider store={mockStore} > { children } </Provider> } )
+
+        const { openDateModal } = result.current
+        
+        act( () => {  openDateModal() } )
+
+        expect( result.current.isDateModalOpen ).toBeTruthy()
+
+     }) 
+    test('closeDateModal should return false in isDateModalOpen', () => { 
+        
+        const mockStore = getMockStore({ isDateModalOpen: true })
+        const { result } = renderHook( () => useUiStore(),
+        { wrapper: ({children}) => <Provider store={mockStore} > { children } </Provider> } )
+
+        const { closeDateModal } = result.current
+        
+        act( () => {  closeDateModal() } )
+
+        expect( result.current.isDateModalOpen ).toBeFalsy()
+
+     }) 
+    test('toggleDateModal should return true or false depending of isDateModalOpen value', () => { 
+        
+        const mockStore = getMockStore({ isDateModalOpen: true })
+        const { result } = renderHook( () => useUiStore(),
+        { wrapper: ({children}) => <Provider store={mockStore} > { children } </Provider> } )
+        
+        act( () => {  result.current.toggleDateModal() } )
+
+        expect( result.current.isDateModalOpen ).toBeFalsy()
+
+        act( () => {  result.current.toggleDateModal() } )
+
+        expect( result.current.isDateModalOpen ).toBeTruthy()
+
+     }) 
 });
