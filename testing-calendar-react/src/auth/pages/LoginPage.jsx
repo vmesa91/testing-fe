@@ -5,14 +5,14 @@ import './LoginPage.css';
 
 const loginFormFields = {
     loginEmail:    '',
-    loginPassword: '',
+    loginPassword: ''
 }
 
 const registerFormFields = {
     registerName:      '',
     registerEmail:     '',
     registerPassword:  '',
-    registerPassword2: '',
+    registerPassword2: ''
 }
 
 
